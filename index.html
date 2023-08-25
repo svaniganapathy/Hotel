@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="stylee.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background-color:PeachPuff">
+<header>
+
+<div id="mySidenav" class="sidenav">
+  <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="about.html">ABOUT</a>
+ <a href="adminlogin.html">ADMIN LOGIN</a>
+ <a href="register.html">USER LOGIN</a>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</header> 
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+<br><p style="color:blue" align="center">
+<font size="24"><br><br>HOTEL MANAGEMENT SYSTEM</font></p>
+<center><p style="font-size:40px; color:Crimson";><b>WELCOME TO STAR HOTEL</b></p></center>  
+</body>
+</html> 
